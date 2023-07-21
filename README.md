@@ -10,5 +10,3 @@ Functions for the last 3 steps were completed first, and then invoked in main() 
 2. file_parse(): used the gzip library to unzip file and read line by line. used the .split function to isolate package names and store quantities inside a dictionary
 3. print_stats(): formatted printout of the top 10 most common packages inside the dictionary using itemgetter
 4. main(): used argparse to get user input
-
-Entire project took ~3 hours. Most challenging part was learning the gzip library to propelry decode the downloaded files. Was running into UnicodeDecode errors prior to learning the full functionalities of the gzip.open function.
